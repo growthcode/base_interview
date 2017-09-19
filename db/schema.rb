@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20171109203207) do
+=======
+ActiveRecord::Schema.define(version: 20170919170425) do
+>>>>>>> f73db1d... add models
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,11 +25,14 @@ ActiveRecord::Schema.define(version: 20171109203207) do
     t.integer "region_id", null: false
   end
 
+<<<<<<< HEAD
   create_table "pages", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+=======
+>>>>>>> f73db1d... add models
   create_table "people", force: :cascade do |t|
     t.string  "name",        null: false
     t.integer "role_id",     null: false
