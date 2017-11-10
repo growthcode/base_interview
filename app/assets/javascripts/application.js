@@ -17,4 +17,3 @@
 //= require backbone
 //= require base
 //= require_tree ./backbone
-

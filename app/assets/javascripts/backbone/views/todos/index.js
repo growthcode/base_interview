@@ -1,5 +1,5 @@
 App.Views.TodosIndex = Backbone.View.extend({
-  // template: '',
+  template: JST['todos/index'],
   el: '#todosBackbone',
   events: {
   },
@@ -14,3 +14,5 @@ App.Views.TodosIndex = Backbone.View.extend({
     this.$el.html( this.todos.toJSON() )
   }
 });
+
+
