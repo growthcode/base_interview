@@ -14,16 +14,16 @@ gem 'uglifier'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
-
 gem 'annotate'
 gem 'awesome_print'
-gem 'faker'
-gem 'devise'
-gem 'pry-rails'
-gem 'factory_bot'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'bootswatch-rails'
+gem 'devise'
+gem 'ejs'
+gem 'factory_bot'
+gem 'faker'
+gem 'jquery-rails'
+gem 'pry-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -34,13 +34,13 @@ gem 'bootswatch-rails'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem "did_you_mean"
   gem 'better_errors'
+  gem 'capybara'
   gem 'quiet_assets'
   gem 'rack-mini-profiler', require: false
-  gem "did_you_mean"
   gem 'rspec-rails'
   gem 'rubocop'
-  gem 'capybara'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
