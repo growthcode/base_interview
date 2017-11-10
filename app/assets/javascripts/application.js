@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require underscore
+//= require helpers/underScoreMixins
 //= require backbone
 //= require base
 //= require_tree ./backbone

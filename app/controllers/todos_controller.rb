@@ -1,9 +1,11 @@
 class TodosController < ApplicationController
   before_action :set_todo, only: [:show, :edit, :update, :destroy]
+  respond_to :html, :json
 
   # GET /todos
   def index
     @todos = Todo.all
+    respond_with(@todos)
   end
 
   # GET /todos/1
