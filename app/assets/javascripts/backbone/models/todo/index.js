@@ -1,4 +1,4 @@
-App.Models.Page = Backbone.Model.extend({
+App.Models.Todo = Backbone.Model.extend({
   defaults: {
     funDefaultStuff: "I'm a default message, yeah!"
   },

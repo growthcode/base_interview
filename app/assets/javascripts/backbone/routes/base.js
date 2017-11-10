@@ -5,6 +5,6 @@ App.Routers.BaseRouter = Backbone.Router.extend({
   },
 
   rootPath: function(params) {
-    new App.Views.PagesIndex
+    new App.Views.ToDosIndex
   },
 });
